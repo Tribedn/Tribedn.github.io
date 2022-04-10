@@ -1,0 +1,101 @@
+<html>
+
+	<head>
+		<title>Контейнери №1</title>
+		
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				font-family:Tahoma
+				
+			
+		}
+			.menu{
+				background:black;
+				padding:14px 30px;
+				
+			}
+			
+			.link{
+				text-decoration:none;
+				color:gray;
+				margin-right: 15px;
+			}
+			
+			
+			.active{
+				color:white;
+			}
+			
+			.header{
+				height: 200px;
+				display:flex;
+				justify-content: center;
+				align-items:center;
+			
+			}
+			
+			h1{ margin: 0; }
+			
+			.main{
+				height:400px;
+				background:black;
+				display:flex;
+				color:white;
+				justify-content:space-around;
+				align-items:center;
+			}
+			
+			
+			.text{
+				font-size: 2rem;
+			}
+			
+			table{
+				color:white;
+				border: 3px solid white;
+			}
+			
+			th, td{
+				border: 2px solid white;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="menu">
+			<a href="z1.html" class="link">ГОЛОВНА</a>
+			<a href="z2.html" class="link active">ПРО СЕБЕ</a>
+		</div>
+		
+		
+		<div class="header">
+			<h1>Інформація про мене</h1>
+		</div>
+		
+		<div class="main">
+			<table cellpadding="10" cellspacing="0">
+				<thead>
+					<tr>
+						<th>Ім'я Прізвище</th>
+						<th>Вміння</th>
+						<th>Хоббі</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>Остап Дацьків</td>
+						<td>HTML,CSS</td>
+						<td>Грати в майнкрафт =)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+				
+			
+	</body>
+
+</html>
