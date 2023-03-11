@@ -1,0 +1,138 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	
+}
+
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+nav{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	background: white;
+	padding: 0px 10px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+	margin: 0 10px;
+	transition: 0.4s ease;
+}
+
+nav a:hover{
+	color: red;
+}
+
+.banner{
+	height:600px;
+	background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('zsu.jpg');
+	background-size: cover;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+
+.banner h1{
+	font-size: 5rem;
+	margin: 0;
+}
+
+.banner h2{
+	font-size: 1.2rem;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background: black;
+    padding: 100px 6vw;
+    box-sizing: border-box;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.menu_box a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 15px 0;
+    font-size: 1rem
+}
+.footer_rights h2{
+    font-size: 2.2rem;
+    margin-top: 5px;
+}
+.footer_contacts{
+    font-size: 1rem;
+}
+
+.footer_contacts a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+	margin: 50px 0;
+	text-align:center;
+	
+}
+
+.info p{
+	max-width: 600px;
+	margin: 20px auto;
+	font-size: 1.1rem;
+}
+
+.info h2{
+	font-size: 2.2rem;
+}
+
+.info a{
+	background:black;
+	padding: 14px 40px;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color:white;
+}
+
+.product{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	margin: 50px 0;
+}
+
+.product_image{
+	width: 50%;
+	height: 100%;
+	min-width: 50%;
+	align-items:center;
+	display: flex;
+	
+}
+
+.img-right{
+	justify-content: end;
+}
+
+.product_info{
+	min-width: 50%
+}
+
+.product_image img{
+	height:300px;
+	
+}
