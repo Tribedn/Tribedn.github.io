@@ -1,0 +1,23 @@
+salary = int(input("Введіть зарплату: "))
+
+tax = salary * 0.15
+
+pension = salary * 0.036
+
+social = salary * 0.3676
+
+paid = salary - tax - pension - social
+
+vat = tax + pension + social
+
+print("Ваша зарплата: ", paid)
+
+print("Податки разом: ", vat)
+
+print()
+
+print("Прибутковий податок: ", tax)
+
+print("Пенсійний внесок: ", pension)
+
+print("Соціальний внесок: ", social)
