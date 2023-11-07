@@ -1,0 +1,6 @@
+import math
+radius = float(input("Введіть радіус круга: "))
+okruznist = 2 * math.pi * radius
+plosha = math.pi * radius ** 2
+print("Довжина Кола:", okruznist)  
+print("Площа круга:", plosha)
